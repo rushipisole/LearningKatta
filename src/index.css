@@ -64,10 +64,12 @@ a {
 
 .grid-two-cols {
   grid-template-columns: repeat(2, 1fr);
+  margin: auto;
 }
 
 .grid-four-cols {
   grid-template-columns: repeat(4, 1fr);
+  margin: auto;
 }
 
 button {
