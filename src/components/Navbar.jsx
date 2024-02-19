@@ -8,9 +8,11 @@ export default function Navbar() {
 
         <>
             <header>
-                <div className="container">
+                <div className="container" style={{ alignItems: 'center', padding: "11px" }}>
                     <div className="logo-brand">
-                        <NavLink to='/'>MagicFlare</NavLink>
+                        <NavLink to='/'><img src="images/Magicflare logo.png"
+                            style={{ height: "83px", width: "105px", marginLeft: "77px" }}
+                        /></NavLink>
                     </div>
                     <nav>
                         <ul>
