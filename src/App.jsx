@@ -10,6 +10,8 @@ import Login from './components/Login'
 import Registration from './components/Registration'
 import Footer from './components/Footer'
 import PageNotFound from './components/PageNotFound'
+import DataProduct from './components/DataProduct'
+import ContentData from './components/ContentData'
 
 
 
@@ -25,6 +27,8 @@ function App() {
         <Route path='/blog' element={<Blogs />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/services' element={<Services />} />
+        <Route path='/dataProduct' element={<DataProduct />} />
+        <Route path='/contentData' element={<ContentData />} />
         <Route path='/registration' element={<Registration />} />
         <Route path='/login' element={<Login />} />
         <Route path='*' element={<PageNotFound />} />

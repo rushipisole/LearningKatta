@@ -52,7 +52,7 @@ const Registration = () => {
                                         <input type="password" name='password' placeholder='Enter your password here' id='password' required autoComplete='off' value={user.password} onChange={handleInput} />
                                     </div>
                                     <br />
-                                    <button type='submit' className='btn btn-submit'>Register Here</button>
+                                    <button type='submit' className='btnn btnn-submit'>Register Here</button>
                                 </form>
                             </div>
                         </div>

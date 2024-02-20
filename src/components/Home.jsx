@@ -8,13 +8,13 @@ const Home = () => {
             <div className="hero-content">
               <p>We are the world best IT company</p>
               <h1>Welcome to MagicFlare Software Services</h1>
-              <p>Microsoft Corporation is an American multinational technology corporation headquartered in Redmond, Washington. Microsoft's best-known software products are the Windows line of operating systems, the Microsoft 365 suite of productivity applications</p>
-              <div className="btn btn-group">
+              <p style={{ textAlign: "justify" }}>Microsoft Corporation is an American multinational technology corporation headquartered in Redmond, Washington. Microsoft's best-known software products are the Windows line of operating systems, the Microsoft 365 suite of productivity applications</p>
+              <div className="btnn btnn-group">
                 <a href="/contact">
-                  <button className='btn'>Connect Now</button>
+                  <button className='btnn'>Connect Now</button>
                 </a>
                 <a href="/services">
-                  <button className='btn secondary-btn'>Services</button>
+                  <button className='btnn secondary-btnn'>Services</button>
                 </a>
               </div>
             </div>
@@ -54,14 +54,14 @@ const Home = () => {
           <div className="hero-content">
             <p>We are here to help your</p>
             <h1>Get started today</h1>
-            <p>Ready to take first step towards a more efficient secure IT infrastructure. Contact us today. Some of the famous slogans given byfreedom fighters are "Jai Hind", "Vande Mataram", "Swaraj is my birthright, and I shall have it".
+            <p style={{ textAlign: "justify" }}>Ready to take first step towards a more efficient secure IT infrastructure. Contact us today. Some of the famous slogans given byfreedom fighters are "Jai Hind", "Vande Mataram", "Swaraj is my birthright, and I shall have it".
             </p>
-            <div className="btn btn-group">
+            <div className="btnn btnn-group">
               <a href="/contact">
-                <button className='btn'>Connect Now</button>
+                <button className='btnn'>Connect Now</button>
               </a>
               <a href="/services">
-                <button className='btn secondary-btn'>Services</button>
+                <button className='btnn secondary-btnn'>Services</button>
               </a>
             </div>
           </div>
