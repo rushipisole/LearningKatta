@@ -8,7 +8,9 @@ const Home = () => {
             <div className="hero-content">
               <p>We are the world best IT company</p>
               <h1>Welcome to MagicFlare Software Services</h1>
-              <p style={{ textAlign: "justify" }}>Microsoft Corporation is an American multinational technology corporation headquartered in Redmond, Washington. Microsoft's best-known software products are the Windows line of operating systems, the Microsoft 365 suite of productivity applications</p>
+              <p style={{ textAlign: "justify" }}>Magicflare Software Services LLP is a technology services and consulting organization specializing in IT Services, Software Development, Outsourced Product Development and Test engineering services. Headquartered in Pune, India, Magicflare combines a passion for development, QA and testing, industry and process, client satisfaction and helping client to reach their business goals.
+
+              </p>
               <div className="btnn btnn-group">
                 <a href="/contact">
                   <button className='btnn'>Connect Now</button>
@@ -46,6 +48,23 @@ const Home = () => {
         </div>
       </section>
 
+      <section>
+        <div className="container" style={{justifyContent:"center", }}>
+          <div className='section-title' style={{justifyContent:"center", display:"flex", textAlign:"center"}}>
+            <a> Our Technologies</a>
+          </div>
+          <div className='container count'>
+            <div className="row">
+              <div className="column col">
+                <img src="./images/Angular.png" alt="" />
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
       <section className="section-hero">
         <div className="container grid grid-two-cols">
           <div className="hero-image">
@@ -69,7 +88,7 @@ const Home = () => {
         </div>
       </section>
 
-     
+
     </>
   )
 }
