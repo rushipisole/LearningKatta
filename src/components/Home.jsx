@@ -73,7 +73,7 @@ const Home = () => {
           <div className="hero-content">
             <p>We are here to help your</p>
             <h1>Get started today</h1>
-            <p style={{ textAlign: "justify" }}>Ready to take first step towards a more efficient secure IT infrastructure. Contact us today. Some of the famous slogans given byfreedom fighters are "Jai Hind", "Vande Mataram", "Swaraj is my birthright, and I shall have it".
+            <p style={{ textAlign: "justify" }}>To create canon with diverse IT Services to transoceanic by innovating possibilities through vigorous minds for helping client to reach their business goals.
             </p>
             <div className="btnn btnn-group">
               <a href="/contact">
