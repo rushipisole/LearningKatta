@@ -245,6 +245,7 @@ a:active {
   align-items: center;
   justify-content: center;
   height: 100vh;
+
   & .container {
     display: block;
   }
@@ -319,7 +320,7 @@ a:active {
     padding-top: 3.2rem;
     align-items: center;
 
-    &img {
+    & .img {
       width: 80%;
       height: auto;
     }
@@ -345,6 +346,33 @@ a:active {
   }
 }
 
+nav .logo-brand {
+  display: none;
+}
+
+.humburger {
+  display: none;
+  height: fit-content;
+  cursor: pointer;
+  padding: 3px 8px;
+  border-radius: 5px;
+  transition: 0.2s;
+
+}
+
+.humburger:hover {
+  background-color: #f6f4ff;
+}
+
+.humburger div {
+  width: 30px;
+  height: 2px;
+  margin: 6px 0;
+  background: black;
+}
+
+
+
 @media only screen and (max-width: 600px) {
   html {
     font-size: 56.25%;
@@ -364,6 +392,112 @@ a:active {
 
   .grid-four-cols {
     grid-template-columns: repeat(1, 1fr);
+
+    .div1 {
+      border-bottom: 0.2rem solid black;
+      /* border-right: 0.2 solid var(--bg-color); */
+    }
+
   }
 
+  @media only screen and (max-width: 835px) {
+    header {
+      width: 90%;
+      padding: 0 20px;
+    }
+
+    nav {
+      position: absolute;
+      left: -300px;
+      top: 0;
+      z-index: 999;
+      width: 280px;
+      height: 100vh;
+      background-color: #fefefe;
+      transition: 0.2s;
+      box-shadow: 2px 0 20px 0 rgba(0, 0, 0, 0.05);
+    }
+
+    #nav_check:checked~nav {
+      left: 0;
+    }
+
+    nav .logo-brand {
+      display: block;
+      height: 83px;
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+    }
+
+    nav ul li {
+      margin-bottom: 1px;
+      padding: 4px 10px;
+      border-radius: 5px;
+    }
+
+    nav ul {
+      display: block;
+      padding: 0 20px;
+      margin-top: 30px;
+
+    }
+
+    .humburger {
+      display: block;
+    }
+
+
+  }
+}
+
+@media only screen and (max-width: 835px) {
+  .section-registration {
+    padding: 0;
+
+  }
+
+  .registration-form {
+    display: block;
+    margin-right: 30px;
+  }
+
+  form {
+    margin-right: 80px;
+  }
+
+  h1 {
+    font-size: 3.4rem;
+  }
+
+  img {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 835px) {
+
+  .section-registration {
+    padding: 0;
+
+  }
+
+  .registration-form {
+    display: block;
+    margin-right: 30px;
+  }
+
+  form {
+    margin-right: 80px;
+  }
+
+  h1 {
+    font-size: 3.4rem;
+  }
+
+  img {
+    height: 400px;
+    width: 400px;
+  }
 }

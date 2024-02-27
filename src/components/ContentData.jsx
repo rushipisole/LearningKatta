@@ -47,8 +47,8 @@ const ContentData = () => {
           <div className='container'>
 
 
-            <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
-              {/* Carousel Indicators */}
+            {/* <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+           
               <div className="carousel-indicators" style={{ color: "black" }}>
                 <button
                   type="button"
@@ -76,7 +76,6 @@ const ContentData = () => {
                 ></button>
               </div>
 
-              {/* Carousel Items */}
               <div className="carousel-inner">
                 <div className={`carousel-item ${activeIndex === 0 ? "active" : ""}`}>
                   <img src="./images/HomeImage.png" className="d-block w-100" alt="First slide" />
@@ -101,7 +100,6 @@ const ContentData = () => {
                 </div>
               </div>
 
-              {/* Carousel Controls */}
               <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Previous</span>
@@ -110,7 +108,7 @@ const ContentData = () => {
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
               </button>
-            </div>
+            </div> */}
           </div>
 
         </section >

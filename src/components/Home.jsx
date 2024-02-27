@@ -34,7 +34,7 @@ const Home = () => {
             <p>Clients</p>
           </div>
           <div className="div1">
-            <h2>10,000+</h2>
+            <h2>10,000+</h2>  
             <p>Happy Customer</p>
           </div>
           <div className="div1">
@@ -48,7 +48,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      {/* <section>
         <div className="container" style={{justifyContent:"center", }}>
           <div className='section-title' style={{justifyContent:"center", display:"flex", textAlign:"center"}}>
             <a> Our Technologies</a>
@@ -56,13 +56,13 @@ const Home = () => {
           <div className='container count'>
             <div className="row">
               <div className="column col">
-                {/* <img src="./images/Angular.png" alt="" /> */}
+                <img src="./images/Angular.png" alt="" />
               </div>
             </div>
 
           </div>
         </div>
-      </section>
+      </section> */}
 
 
       <section className="section-hero">
