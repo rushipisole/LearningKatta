@@ -38,7 +38,7 @@ input,
 text {
   font-size: 1.8rem;
   line-height: 1.56;
-  letter-spacing: 01.rem;
+  /* letter-spacing: 01.rem; */
   word-spacing: 0.06rem;
 }
 

@@ -56,7 +56,7 @@ const Home = () => {
           <div className='container count'>
             <div className="row">
               <div className="column col">
-                <img src="./images/Angular.png" alt="" />
+                {/* <img src="./images/Angular.png" alt="" /> */}
               </div>
             </div>
 
