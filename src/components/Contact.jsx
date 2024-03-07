@@ -61,7 +61,7 @@ const Contact = () => {
         </div>
         <section className='mb-3'>
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.8364432227736!2d75.36593937522612!3d19.889127081490173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba3411c832a53%3A0xf3747f16a77d75e6!2sMagicflare%20Software%20Services%20-%20Aurangabad!5e0!3m2!1sen!2sin!4v1708327854153!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3751.879006628169!2d75.36593087468496!3d19.887330326002907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdba2c1b880aa3f%3A0x4dc783596ed56f11!2sSoftware%20Technology%20Parks%20of%20India!5e0!3m2!1sen!2sin!4v1709794596492!5m2!1sen!2sin"
 
             width="100%" height={350}
             allowFullScreen=""

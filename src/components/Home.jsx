@@ -7,8 +7,8 @@ const Home = () => {
           <div className="container grid grid-two-cols">
             <div className="hero-content">
               <p>We are the world best IT company</p>
-              <h1>Welcome to MagicFlare Software Services</h1>
-              <p style={{ textAlign: "justify" }}>Magicflare Software Services LLP is a technology services and consulting organization specializing in IT Services, Software Development, Outsourced Product Development and Test engineering services. Headquartered in Pune, India, Magicflare combines a passion for development, QA and testing, industry and process, client satisfaction and helping client to reach their business goals.
+              <h1 style={{fontSize:"45px"}}>Welcome to Learning Katta</h1>
+              <p style={{ textAlign: "justify" }}>Learning katta is a technology services and consulting organization specializing in IT Services, Software Development, Outsourced Product Development and Test engineering services. Headquartered in Aurangabad, India, Learning Katta combines a passion for development, QA and testing, industry and process, client satisfaction and helping client to reach their business goals.
 
               </p>
               <div className="btnn btnn-group">

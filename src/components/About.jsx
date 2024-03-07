@@ -6,13 +6,13 @@ const About = () => {
       <section className="section-hero">
         <div className="container grid grid-two-cols">
           <div className="hero-content">
-            <p>Welcome to MagicFlare Software Solutions</p>
+            <p>Welcome to Learning Katta</p>
             <h1>Why you choose us?</h1>
             <p style={{ textAlign: "justify" }} >
-              Magicflare Software Services LLP is a technology services and consulting organization specializing in IT Services, Software Development, Outsourced Product Development and Test engineering services. Headquartered in Pune, India.
+            Learning Katta is a technology services and consulting organization specializing in IT Services, Software Development, Outsourced Product Development and Test engineering services. Headquartered in Pune, India.
             </p>
             <p style={{ textAlign: "justify" }}>
-              Magicflare combines a passion for development, QA and testing, industry and process, client satisfaction and helping client to reach their business goals.
+            Learning Katta combines a passion for development, QA and testing, industry and process, client satisfaction and helping client to reach their business goals.
             </p>
             <p style={{ textAlign: "justify" }}> 
               Our approach is to combine our understanding of user behavior with a commitment to meeting the business goals of our clients. We are proactive in our service and will alert our customers of any malicious behavior that we find.

@@ -8,16 +8,16 @@ export default function Navbar() {
 
         <>
             <header>
-                <div className="container" style={{ alignItems: 'center', padding: "11px" }}>
+                <div className="container" style={{ alignItems: 'center', padding: "11px", marginBottom:"-25px" }}>
                     <div className="logo-brand">
-                        <NavLink to='/'><img src="images/Magicflare logo.png"
-                            style={{ height: "83px", width: "105px", marginLeft: "77px" }}
+                        <NavLink to='/'><img src="images/logo.png"
+                            style={{ height: "110px", width: "120px", marginLeft: "77px" }}
                         /></NavLink>
                     </div>
                     <input type="checkbox" id='nav_check' hidden />
                     <nav>
                         <div className="logo-brand">
-                            <NavLink to='/'><img src="images/Magicflare logo.png"
+                            <NavLink to='/'><img src="images/ logo.png"
                                 style={{ height: "83px", width: "105px", marginLeft: "77px" }}
                             /></NavLink>
                         </div>
